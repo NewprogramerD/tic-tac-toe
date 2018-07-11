@@ -94,7 +94,7 @@ function Square(props) {
       let image = "X"
       if(!this.state.isXNext) {
         image = "O";
-  }
+      }
       let status = `Next player: ${image}`;
       const winner = this.calculateWinner(this.state.squares);
       if(winner){
